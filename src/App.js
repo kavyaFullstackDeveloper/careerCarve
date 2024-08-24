@@ -1,25 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import { Routes, Route } from 'react-router-dom';
+import HomePage from './pages/HomePage';
+import BookingPage from './pages/BookingPage';
+import PaymentPage from './pages/PaymentPage'; // Correct the import name if needed
+import MentorPage from './pages/MentorPage';
 
-function App() {
+const App = () => {
+  const [selectedMentor, setSelectedMentor] = useState(null);
+  const [student] = useState({ id: 1, name: 'John Doe' });
+  const [booking, setBooking] = useState(null);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Routes>
+      <Route
+        path="/"
+        element={<HomePage onSelectMentor={setSelectedMentor} />}
+      />
+      <Route
+        path="/mentor"
+        element={<MentorPage mentor={selectedMentor} student={student} />}
+      />
+      <Route
+        path="/booking"
+        element={<BookingPage mentor={selectedMentor} student={student} />}
+      />
+      <Route
+        path="/payment"
+        element={<PaymentPage booking={booking} onCompletePayment={() => alert('Payment Successful!')} />}
+      />
+    </Routes>
   );
-}
+};
 
 export default App;

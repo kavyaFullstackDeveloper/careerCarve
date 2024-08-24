@@ -1,0 +1,94 @@
+[
+    {
+      "id": 1,
+      "name": "Kile",
+      "expertise": "Software Engineering",
+      "availability": "Weekdays 9 AM - 5 PM",
+      "bio": "Jane has 10 years of experience in software engineering...",
+      "rating": 4.9,
+      "yearsOfExperience": 10,
+      "profilePicture": "https://randomuser.me/api/portraits/women/81.jpg"
+    },
+    {
+      "id": 2,
+      "name": "John Smith",
+      "expertise": "Data Science",
+      "availability": "Weekends 10 AM - 4 PM",
+      "bio": "John specializes in data science with a focus on machine learning...",
+      "rating": 4.7,
+      "yearsOfExperience": 8,
+      "profilePicture": "https://randomuser.me/api/portraits/men/4.jpg"
+    },
+      {
+        "id": 3,
+        "name": "Rio Seo",
+        "expertise": "Fullstack developement",
+        "availability": "Weekends 10 AM - 4 PM",
+        "bio": "John specializes in fullstack with a focus on machine learning...",
+        "rating": 4.7,
+        "yearsOfExperience": 8,
+        "profilePicture": "https://randomuser.me/api/portraits/men/86.jpg"
+      },
+      {
+        "id": 4,
+        "name": "John Smith",
+        "expertise": "Data Science",
+        "availability": "Week days 10 AM - 4 PM",
+        "bio": "John specializes in data science with a focus on machine learning...",
+        "rating": 4.7,
+        "yearsOfExperience": 8,
+        "profilePicture": "https://randomuser.me/api/portraits/women/40.jpg"
+      },
+      {
+        "id": 5,
+        "name": "Gang Nam-Soon",
+        "expertise": "Data Science",
+        "availability": "Weekdays 10 AM - 4 PM",
+        "bio": "John specializes in data science with a focus on machine learning...",
+        "rating": 4.7,
+        "yearsOfExperience": 8,
+        "profilePicture": "https://randomuser.me/api/portraits/women/60.jpg"
+      },
+      {
+        "id": 6,
+        "name": "John Smith",
+        "expertise": "Data Science",
+        "availability": "Weekends 10 AM - 4 PM",
+        "bio": "John specializes in data science with a focus on machine learning...",
+        "rating": 4.7,
+        "yearsOfExperience": 8,
+        "profilePicture": "https://randomuser.me/api/portraits/men/4.jpg"
+      },
+      {
+        "id": 7,
+        "name": "John Smith",
+        "expertise": "Data Science",
+        "availability": "Weekends 10 AM - 4 PM",
+        "bio": "John specializes in data science with a focus on machine learning...",
+        "rating": 4.7,
+        "yearsOfExperience": 8,
+        "profilePicture": "https://randomuser.me/api/portraits/men/4.jpg"
+      },
+    
+      {
+        "id": 9,
+        "name": "Lalithasree",
+        "expertise": "Data Science",
+        "availability": "Weekdays 10 AM - 4 PM",
+        "bio": "Sree specializes in data science with a focus on machine learning...",
+        "rating": 4.7,
+        "yearsOfExperience": 8,
+        "profilePicture": "https://randomuser.me/api/portraits/women/90.jpg"
+      }, 
+      {
+        "id": 11,
+        "name": "Kim shoo",
+        "expertise": "Software Engineering",
+        "availability": "Weekdays 9 AM - 5 PM",
+        "bio": "Jane has 10 years of experience in software engineering...",
+        "rating": 4.9,
+        "yearsOfExperience": 10,
+        "profilePicture": "https://randomuser.me/api/portraits/women/81.jpg"
+      }
+  ]
+  
